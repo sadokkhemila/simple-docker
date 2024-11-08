@@ -8,7 +8,7 @@ services:
       - "80:80"
       - "443:443"
     volumes:
-      - /Users/iyed/simple-docker-app/www:/var/www/html
+      - C:\Users\iyed:/var/www/html
     links:
       - db
 
